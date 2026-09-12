@@ -1,0 +1,122 @@
+[
+  {
+    "id": "react",
+    "name": "React",
+    "category": "Frontend",
+    "description": "A JavaScript library for building modern and interactive user interfaces.",
+    "icon": "https://icon.icepanel.io/Technology/svg/React.svg",
+    "rating": 4.9,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Popular"
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "category": "Language",
+    "description": "A versatile programming language used to make websites interactive and dynamic.",
+    "icon": "https://icon.icepanel.io/Technology/svg/JavaScript.svg",
+    "rating": 4.9,
+    "difficulty": "Intermediate",
+    "badge": "Essential"
+  },
+  {
+    "id": "html",
+    "name": "HTML",
+    "category": "Frontend",
+    "description": "The standard markup language used to structure content on the web.",
+    "icon": "https://icon.icepanel.io/Technology/svg/HTML5.svg",
+    "rating": 4.8,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Essential"
+  },
+  {
+    "id": "css",
+    "name": "CSS",
+    "category": "Styling",
+    "description": "A stylesheet language used to design and style websites.",
+    "icon": "https://icon.icepanel.io/Technology/svg/CSS3.svg",
+    "rating": 4.8,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Essential"
+  },
+  {
+    "id": "nodejs",
+    "name": "Node.js",
+    "category": "Backend",
+    "description": "A JavaScript runtime used to build fast and scalable backend applications.",
+    "icon": "https://icon.icepanel.io/Technology/svg/Node.js.svg",
+    "rating": 4.8,
+    "difficulty": "Intermediate",
+    "badge": "Fast"
+  },
+  {
+    "id": "express",
+    "name": "Express.js",
+    "category": "Backend",
+    "description": "A lightweight Node.js framework for building web servers and APIs.",
+    "icon": "https://icon.icepanel.io/Technology/svg/Express.svg",
+    "rating": 4.7,
+    "difficulty": "Intermediate",
+    "badge": "Popular"
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "category": "Database",
+    "description": "A flexible NoSQL database designed for modern application development.",
+    "icon": "https://icon.icepanel.io/Technology/svg/MongoDB.svg",
+    "rating": 4.7,
+    "difficulty": "Intermediate",
+    "badge": "Popular"
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "category": "Database",
+    "description": "A powerful open-source relational database system known for reliability.",
+    "icon": "https://icon.icepanel.io/Technology/svg/PostgresSQL.svg",
+    "rating": 4.9,
+    "difficulty": "Intermediate",
+    "badge": "Top SQL"
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "category": "Language",
+    "description": "A beginner-friendly programming language used in web development, AI, and data science.",
+    "icon": "https://icon.icepanel.io/Technology/svg/Python.svg",
+    "rating": 4.9,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Popular"
+  },
+  {
+    "id": "tailwind",
+    "name": "Tailwind CSS",
+    "category": "Styling",
+    "description": "A utility-first CSS framework for quickly building custom user interfaces.",
+    "icon": "https://icon.icepanel.io/Technology/svg/Tailwind-CSS.svg",
+    "rating": 4.8,
+    "difficulty": "Intermediate",
+    "badge": "Fast"
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "category": "DevOps",
+    "description": "A platform for packaging and running applications inside lightweight containers.",
+    "icon": "https://icon.icepanel.io/Technology/svg/Docker.svg",
+    "rating": 4.8,
+    "difficulty": "Advanced",
+    "badge": "Containers"
+  },
+  {
+    "id": "git",
+    "name": "Git",
+    "category": "Tools",
+    "description": "A version control system used to track and manage changes in projects.",
+    "icon": "https://icon.icepanel.io/Technology/svg/Git.svg",
+    "rating": 4.9,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Essential"
+  }
+]
