@@ -1,5 +1,5 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/navbar";
 import Hero from "./components/Hero";
 import TechnologySection from "./components/TechnologySection";
 import { ToastContainer } from "react-toastify";

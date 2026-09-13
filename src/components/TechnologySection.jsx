@@ -7,10 +7,17 @@ import YourStack from "./YourStack";
 function TechnologySection() {
   const [stack, setStack] = useState([]);
   const removeFromStack = (id) => {
+  const removedTechnology = stack.find(
+    (technology) => technology.id === id
+  );
+
   setStack(stack.filter((technology) => technology.id !== id));
+
+  toast.success(`${removedTechnology.name} removed from your stack!`);
 };
 const removeAll = () => {
   setStack([]);
+  toast.success("All technologies removed from your stack!");
 };
 
   return (
