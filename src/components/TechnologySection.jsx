@@ -30,6 +30,7 @@ const removeAll = () => {
             <TechnologyCard
   key={technology.id}
   technology={technology}
+  isAdded={stack.some((item) => item.id === technology.id)}
  onAdd={(technology) => {
   const alreadyAdded = stack.some(
     (item) => item.id === technology.id

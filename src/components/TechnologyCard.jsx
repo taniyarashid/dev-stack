@@ -1,4 +1,4 @@
-function TechnologyCard({ technology, onAdd }) {
+function TechnologyCard({ technology, onAdd, isAdded }) {
   return (
     <div className="technology-card">
       <img
@@ -25,11 +25,12 @@ function TechnologyCard({ technology, onAdd }) {
       </div>
 
       <button
-        className="add-stack-btn"
-        onClick={() => onAdd(technology)}
-      >
-        Add to Stack
-      </button>
+  className="add-stack-btn"
+  onClick={() => onAdd(technology)}
+  disabled={isAdded}
+>
+  {isAdded ? "✓ Added to Stack" : "Add to Stack"}
+</button>
     </div>
   );
 }
