@@ -1,13 +1,18 @@
 import "./App.css";
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import TechnologySection from "./components/TechnologySection";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
-    <div>
+    <>
       <Navbar />
       <Hero />
-    </div>
+      <TechnologySection />
+      <ToastContainer />
+    </>
   );
 }
 
