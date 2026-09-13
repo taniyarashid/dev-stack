@@ -9,6 +9,9 @@ function TechnologySection() {
   const removeFromStack = (id) => {
   setStack(stack.filter((technology) => technology.id !== id));
 };
+const removeAll = () => {
+  setStack([]);
+};
 
   return (
     <section className="technology-section">
@@ -40,6 +43,7 @@ function TechnologySection() {
        <YourStack
   stack={stack}
   onRemove={removeFromStack}
+  onRemoveAll={removeAll}
 />
       </div>
     </section>

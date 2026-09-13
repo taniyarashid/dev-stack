@@ -1,10 +1,18 @@
-function YourStack({ stack, onRemove }) {
+function YourStack({ stack, onRemove, onRemoveAll}) {
   return (
     <aside className="your-stack">
-      <div className="stack-header">
-        <h2>Your Stack</h2>
-        <span>{stack.length} Technology Selected</span>
-      </div>
+     <div className="stack-header">
+  <div>
+    <h2>Your Stack</h2>
+    <span>{stack.length} Technology Selected</span>
+  </div>
+
+  {stack.length > 0 && (
+    <button className="remove-all-btn" onClick={onRemoveAll}>
+  Remove All
+</button>
+  )}
+</div>
 
       {stack.length === 0 ? (
         <div className="empty-stack">
