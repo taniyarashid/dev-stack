@@ -334,3 +334,10 @@
 .remove-all-btn:hover {
   background: #ffe4e6;
 }
+.loading-message {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: #666;
+  padding: 40px 0;
+}
