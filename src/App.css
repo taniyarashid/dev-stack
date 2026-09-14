@@ -341,3 +341,83 @@
   color: #666;
   padding: 40px 0;
 }
+@media (max-width: 1024px) {
+  .technology-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .technology-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .your-stack {
+    position: static;
+  }
+}
+
+@media (max-width: 600px) {
+  .technology-section {
+    padding: 40px 5%;
+  }
+
+  .technology-section h2 {
+    font-size: 28px;
+  }
+
+  .technology-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .technology-card {
+    padding: 20px;
+  }
+}
+.menu-btn {
+  display: none;
+  border: none;
+  background: transparent;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    min-height: 60px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .navbar-brand img {
+    width: 110px;
+  }
+
+  .navbar-links {
+    display: none;
+  }
+
+  .navbar-actions {
+    margin-left: auto;
+    gap: 6px;
+  }
+
+  .sign-in {
+    font-size: 13px;
+  }
+
+  .sign-up {
+    padding: 8px 12px;
+    font-size: 13px;
+  }
+}

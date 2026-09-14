@@ -1,10 +1,13 @@
 import logo from "../assets/logo-text.png";
+
 function Navbar() {
   return (
     <nav className="navbar">
+      <button className="menu-btn">☰</button>
+
       <div className="navbar-brand">
-  <img src={logo} alt="Dev Stack" />
-</div>
+        <img src={logo} alt="Dev Stack" />
+      </div>
 
       <div className="navbar-links">
         <a href="#home">Home</a>
